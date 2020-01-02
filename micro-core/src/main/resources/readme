@@ -1,0 +1,16 @@
+
+# 1. nacos配置文件读取配置如下: 则可以读取nacos命名为 : micro.yaml  micro-dev.yaml micro-prod.yaml 三个文件里的值
+spring:
+  cloud:
+    nacos:
+      config:
+        server-addr: 10.121.198.102:8848
+        file-extension: yaml
+        prefix: micro
+  application:
+    name: micro
+  profiles:
+    active: dev,prod
+
+
+

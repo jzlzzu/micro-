@@ -1,0 +1,11 @@
+spring:
+  cloud:
+    nacos:
+      config:
+        server-addr: 10.121.198.102:8848
+        file-extension: yaml
+        prefix: micro
+  application:
+    name: micro
+  profiles:
+    active: dev,prod
