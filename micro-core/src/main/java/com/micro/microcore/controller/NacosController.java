@@ -1,9 +1,16 @@
 package com.micro.microcore.controller;
 
+import com.micro.microcore.pojo.Student;
+import com.micro.microcore.props.StuProperties;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.context.config.annotation.RefreshScope;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
+
+import java.util.List;
 
 /**
  * @Author: jzl
@@ -17,28 +24,36 @@ import org.springframework.web.bind.annotation.RestController;
 public class NacosController {
 
 
-    @Value("${useLocalCache:false}")
-    private String useLocalCache;
+    @Value("${micro:1}")
+    private String micro;
 
-    @Value("${useLocalCache1:false}")
-    private String useLocalCache1;
+    @Value("${micro-dev:2}")
+    private String microDev;
 
-    @Value("${useLocalCache2:false}")
-    private String useLocalCache2;
+    @Value("${micro-prod:3}")
+    private String microProd;
 
+    @Autowired
+    private StuProperties stuProperties;
+
+    /**
+     * 测试配置文件读取
+     */
     @RequestMapping("/get")
     public String get() {
-        return useLocalCache;
+
+        System.out.println("micro = " + micro);
+        System.out.println("microDev = " + microDev);
+        System.out.println("microProd = " + microProd);
+
+        return "ok";
     }
 
-    @RequestMapping("/get1")
-    public String get1() {
-        return useLocalCache1;
+    @GetMapping("/stu")
+    public void queryStuPro(){
+        List<Student> students = stuProperties.getStuDents();
+        System.out.println(students);
     }
 
-    @RequestMapping("/get2")
-    public String get2() {
-        return useLocalCache2;
-    }
 
 }
