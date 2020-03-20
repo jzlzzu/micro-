@@ -3,5 +3,8 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/micro-core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/micro-gateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/micro-log" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/micro-mq" charset="UTF-8" />
   </component>
 </project>

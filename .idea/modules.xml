@@ -4,6 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/micro.iml" filepath="$PROJECT_DIR$/micro.iml" />
       <module fileurl="file://$PROJECT_DIR$/micro-core/micro-core.iml" filepath="$PROJECT_DIR$/micro-core/micro-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/micro-gateway/micro-gateway.iml" filepath="$PROJECT_DIR$/micro-gateway/micro-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/micro-log/micro-log.iml" filepath="$PROJECT_DIR$/micro-log/micro-log.iml" />
+      <module fileurl="file://$PROJECT_DIR$/micro-mq/micro-mq.iml" filepath="$PROJECT_DIR$/micro-mq/micro-mq.iml" />
     </modules>
   </component>
 </project>

@@ -7,13 +7,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="micro" />
         <module name="micro-core" />
+        <module name="micro-gateway" />
+        <module name="micro-log" />
+        <module name="micro-mq" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
       <module name="micro" target="1.8" />
       <module name="micro-core" target="1.8" />
+      <module name="micro-gateway" target="1.8" />
+      <module name="micro-log" target="1.8" />
+      <module name="micro-mq" target="1.8" />
+      <module name="micromq" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
