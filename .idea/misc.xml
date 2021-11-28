@@ -29,7 +29,6 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/micro-core/pom.xml" />
-        <option value="$PROJECT_DIR$/micro-log/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
