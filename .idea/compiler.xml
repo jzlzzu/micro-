@@ -7,10 +7,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="micro-core" />
-        <module name="micro-gateway" />
         <module name="micro-log" />
-        <module name="micro-mq" />
+        <module name="micro-gateway" />
+        <module name="micro-core" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
@@ -21,5 +20,13 @@
       <module name="micro-mq" target="1.8" />
       <module name="micromq" target="1.8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="micro-core" options="-parameters" />
+      <module name="micro-gateway" options="-parameters" />
+      <module name="micro-log" options="-parameters" />
+      <module name="micro-mq" options="-parameters" />
+    </option>
   </component>
 </project>
