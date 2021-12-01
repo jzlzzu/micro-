@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/micro.iml" filepath="$PROJECT_DIR$/micro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/micro-auth/micro-auth.iml" filepath="$PROJECT_DIR$/micro-auth/micro-auth.iml" />
       <module fileurl="file://$PROJECT_DIR$/micro-core/micro-core.iml" filepath="$PROJECT_DIR$/micro-core/micro-core.iml" />
       <module fileurl="file://$PROJECT_DIR$/micro-gateway/micro-gateway.iml" filepath="$PROJECT_DIR$/micro-gateway/micro-gateway.iml" />
     </modules>

@@ -5,19 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="721baad2-fca6-4ba0-bb59-34244cd91544" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/micro-auth/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micro-auth/src/main/java/com/micro/auth/AuthApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micro-auth/src/main/java/com/micro/auth/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micro-auth/src/main/java/com/micro/auth/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micro-auth/src/main/java/com/micro/auth/service/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micro-auth/src/main/resources/static/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro-log/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro-log/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro-log/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro-log/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro-log/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro-log/src/main/java/com/micro/microlog/MicroLogApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro-log/src/main/java/com/micro/microlog/bean/Item.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro-log/src/main/resources/bootstrap.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro-log/src/test/java/com/micro/microlog/EsTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro-log/src/test/java/com/micro/microlog/MicroLogApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro-mq/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,6 +29,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
@@ -100,6 +99,11 @@
         <option name="mavenHome" value="$PROJECT_DIR$/../../soft/apache-maven-3.3.9" />
         <option name="userSettingsFile" value="D:\soft\apache-maven-3.3.9\conf\settings.xml" />
       </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="1.8" />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
@@ -476,6 +480,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -489,15 +495,18 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Facets" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.33032694" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\jzl\micro\micro-log\src\main\resources" />
       <recent name="C:\jzl\micro\micro-core\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\projects\micro-\micro-auth\src\main\resources\static" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -507,7 +516,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.EsTest.add">
+  <component name="RunManager" selected="Spring Boot.AuthApplication">
     <configuration name="EsTest.add" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="micro-log" />
       <extension name="coverage">
@@ -520,6 +529,26 @@
       <option name="MAIN_CLASS_NAME" value="com.micro.microlog.EsTest" />
       <option name="METHOD_NAME" value="add" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="micro-auth" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.micro.auth.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.micro.auth.AuthApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.DemoApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -542,9 +571,12 @@
       <item itemvalue="JUnit.EsTest.add" />
       <item itemvalue="Spring Boot.MicroCoreApplication" />
       <item itemvalue="Spring Boot.MicroLogApplication" />
+      <item itemvalue="Spring Boot.DemoApplication" />
+      <item itemvalue="Spring Boot.AuthApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.AuthApplication" />
         <item itemvalue="JUnit.EsTest.add" />
       </list>
     </recent_temporary>
@@ -567,7 +599,8 @@
       <workItem from="1631014379946" duration="1226000" />
       <workItem from="1631152359971" duration="303000" />
       <workItem from="1631152697740" duration="589000" />
-      <workItem from="1638089753433" duration="2275000" />
+      <workItem from="1638089753433" duration="4873000" />
+      <workItem from="1638147447904" duration="19071000" />
     </task>
     <servers />
   </component>
@@ -654,6 +687,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

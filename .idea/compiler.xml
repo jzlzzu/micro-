@@ -3,29 +3,38 @@
   <component name="CompilerConfiguration">
     <option name="USE_RELEASE_OPTION" value="false" />
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="untitled" />
+        <module name="micro-auth" />
         <module name="micro-gateway" />
         <module name="micro-core" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
+      <module name="demo" target="1.8" />
       <module name="micro" target="1.8" />
+      <module name="micro-auth" target="8" />
       <module name="micro-core" target="1.8" />
       <module name="micro-gateway" target="1.8" />
       <module name="micro-log" target="1.8" />
       <module name="micro-mq" target="1.8" />
       <module name="micromq" target="1.8" />
+      <module name="untitled" target="8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="demo" options="-parameters" />
+      <module name="micro-auth" options="-parameters" />
       <module name="micro-core" options="-parameters" />
       <module name="micro-gateway" options="-parameters" />
       <module name="micro-log" options="-parameters" />
       <module name="micro-mq" options="-parameters" />
+      <module name="untitled" options="-parameters" />
     </option>
   </component>
 </project>

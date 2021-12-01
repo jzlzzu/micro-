@@ -23,6 +23,7 @@
     <modules>
         <module>micro-core</module>
         <module>micro-gateway</module>
+        <module>micro-auth</module>
     </modules>
 
     <dependencyManagement>
